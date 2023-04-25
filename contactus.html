@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <title>Contact Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: 'Roboto Slab', serif;;
+            }
+            label {
+                color: blue;
+            }
+            input{
+                width: 200px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid coral;
+            }
+
+input[type="text"]{
+                text-transform: capitalize;
+            }
+            input[type="email"]{
+                color: chocolate;
+            }
+            #submit:hover{
+                background-color: blueviolet;
+            }
+            
+        </style>
+        <form>
+        <table>
+            <thead>
+            <tr>
+                <td><label for="First Name"> Full Name:</label></td>
+                <td><input type="text" id="First Name" placeholder="Max character length 40" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td> <label>Mobile No:</label></td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td> <label>Email Id:</label></td>
+                <td> <input type="email" placeholder="abc@gmail.com"></td>
+
+            </tr>
+            <tr>
+                <td> <label> Enquiry:</label></td>
+                <td> <textarea rows="5" cols="34"></textarea></td>
+            </tr>
+            <tr>
+                <td> <button type="submit" id="submit">Submit</button></td>
+                <td> <button type="submit">clear</button></td>
+            </tr>
+        </thead>
+        </table>
+    </form>
+
+    </body>
+</html>
